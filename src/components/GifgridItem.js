@@ -1,11 +1,7 @@
 
 import React from 'react'
 
-
-
-import '../index.css';
-
-export const GifgridItem = ( {id, title, url }) => {
+export const GifgridItem = ( {title, url }) => {
 
     return (
         <div className="card animate__animated animate__tada" >
